@@ -15,4 +15,3 @@ class CustomUserAdmin(UserAdmin):
         (None, {'fields': ('email', 'bio', 'avatar')}),
     )
 
-

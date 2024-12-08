@@ -29,6 +29,7 @@ INSTALLED_APPS = [
 
     # MY APPS
     'users.apps.UsersConfig',
+    'post.apps.PostConfig',
 ]
 
 
@@ -103,6 +104,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (BASE_DIR / 'static',)
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
