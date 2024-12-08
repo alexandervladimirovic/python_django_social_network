@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+div#posts {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div#posts div {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
